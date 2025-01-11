@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "==3.10.0"
+numpy = "==2.2.1"
+scipy = "==1.15.1"
+pandas = "==2.2.3"
+cartopy = "==0.24.1"
+cftime = "==1.6.4.post1"
+netcdf4 = "==1.7.2"
+pyproj = "==3.7.0"
+xarray = "*"
+seaborn = "==0.13.2"
+
+[dev-packages]
+ipython = "*"
+black = "*"
+
+[requires]
+python_version = "3.12"
